@@ -1,0 +1,33 @@
+#python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+#virtual environments
+venv/
+.env/
+.env.bak/
+
+#jupyter notebooks
+.ipynb_checkpoints/
+
+#dataset files
+data/*.csv
+
+#ML artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+
+#logs & temp files
+*.log
+*.tmp
+
+#IDE / Editor
+.vscode/
+.idea/
+
+#Misc
+.cache/
